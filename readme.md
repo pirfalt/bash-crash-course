@@ -2,10 +2,10 @@
 
 TLDR:
 
-- [devhints.io/bash]('https://devhints.io/bash') (my prefered cheat sheet)
-- [shell check extention for vs code]('https://marketplace.visualstudio.com/items?itemName=timonwong.shellcheck')
-- [shellcheck]('https://www.shellcheck.net/')
-- [shellharden]('https://github.com/anordal/shellharden')
+- [devhints.io/bash](https://devhints.io/bash) (my prefered cheat sheet)
+- [shell check extention for vs code](https://marketplace.visualstudio.com/items?itemName=timonwong.shellcheck)
+- [shellcheck](https://www.shellcheck.net/)
+- [shellharden](https://github.com/anordal/shellharden)
 
 ## What is an OS
 
@@ -233,7 +233,7 @@ cat readme.md | grep 'echo'
 
 ## Syntax
 
-I still have to look it up, very often. [devhints.io/bash]('https://devhints.io/bash').
+I still have to look it up, very often. [devhints.io/bash](https://devhints.io/bash).
 
 ### Variables
 
