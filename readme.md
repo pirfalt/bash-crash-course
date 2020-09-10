@@ -132,7 +132,7 @@ marked -i readme.md -o output_short.html
 marked < readme.md
 marked   < readme.md   > output_redirected.html
 
-cat readme.md | marked > .html
+cat readme.md | marked > output_redirected2.html
 ```
 
 Wait, it was supposed to be files, not the internet?
@@ -218,7 +218,6 @@ jq
 ```bash
 cat users_pirfalt.json | jq '.'
 
-cat users_pirfalt.json | jq '. | { login, location, company }'
 cat users_pirfalt.json | jq '. | { login, location, company }'
 
 cat users_pirfalt.json | jq '.repos_url'
