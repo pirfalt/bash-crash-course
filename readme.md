@@ -6,6 +6,7 @@ TLDR:
 - [shell check extention for vs code](https://marketplace.visualstudio.com/items?itemName=timonwong.shellcheck)
 - [shellcheck](https://www.shellcheck.net/)
 - [shellharden](https://github.com/anordal/shellharden)
+- [more program examples](https://github.com/pirfalt/commandline-presentation)
 
 ## What is an OS
 
@@ -307,4 +308,21 @@ for f in $(ls); do echo "Found: $f in this directory"; done
 for c in 1 2 3 4; do echo "space separated $c"; done
 
 while true; do ls; sleep 2; done
+```
+
+### Scripts
+
+```bash
+echo '#!/bin/bash
+
+echo "My script which lists files... and location"
+echo ""
+ls -al
+echo ""
+pwd
+' > script.sh
+
+./script.sh
+
+chmod +x ./script.sh
 ```
